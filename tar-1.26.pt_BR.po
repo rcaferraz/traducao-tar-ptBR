@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: tar 1.13.25\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2011-03-12 11:53+0200\n"
-"PO-Revision-Date: 2013-01-08 23:51-0300\n"
+"PO-Revision-Date: 2013-01-09 15:24-0300\n"
 "Last-Translator: Eduardo Tenório <embatbr@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -132,9 +132,9 @@ msgid "(PROGRAM ERROR) No version known!?"
 msgstr "(ERRO DO PROGRAMA) Não se sabe a versão!?"
 
 #: gnu/argp-parse.c:613
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Too many arguments\n"
-msgstr "%s: a opção `%s' exige um argumento\n"
+msgstr "%s: Argumentos além do necessário\n"
 
 #: gnu/argp-parse.c:756
 msgid "(PROGRAM ERROR) Option should have been recognized!?"
@@ -1332,12 +1332,12 @@ msgstr " tipo de arquivo \"%s\" desconhecido\n"
 #: src/list.c:1283
 #, c-format
 msgid "--Long Link--\n"
-msgstr ""
+msgstr "--Link Longo--\n"
 
 #: src/list.c:1287
 #, c-format
 msgid "--Long Name--\n"
-msgstr ""
+msgstr "--Nome Longo--\n"
 
 #: src/list.c:1291
 #, c-format
@@ -1389,11 +1389,11 @@ msgstr "canal interprocesso"
 
 #: src/names.c:590
 msgid "Pattern matching characters used in file names"
-msgstr ""
+msgstr "Padrão correspondente a caracteres usados em nomes de arquivos"
 
 #: src/names.c:592
 msgid "Use --wildcards to enable pattern matching, or --no-wildcards to suppress this warning"
-msgstr ""
+msgstr "Use --wildcards para habilitar casamento de padrão, ou --no-wildcards para suprimir este aviso"
 
 #: src/names.c:610
 #: src/names.c:626
@@ -1413,11 +1413,11 @@ msgstr "O arquivo-tar não rotulado para casar com %s"
 
 #: src/names.c:949
 msgid "Using -C option inside file list is not allowed with --listed-incremental"
-msgstr ""
+msgstr "Usar a opção -C dentro de lista de arquivo não é permitido com --listed-incremental"
 
 #: src/names.c:955
 msgid "Only one -C option is allowed with --listed-incremental"
-msgstr ""
+msgstr "Somente uma opção -C é permitida com --listed-incremental"
 
 #: src/tar.c:81
 #, c-format
@@ -1436,7 +1436,7 @@ msgstr "Desejadas características GNU num arquivo-tar com formato incompatível"
 #: src/tar.c:250
 #, c-format
 msgid "Unknown quoting style `%s'. Try `%s --quoting-style=help' to get a list."
-msgstr ""
+msgstr "Estilo de citação `%s' desconhecido. Tente `%s --quoting-style=help' para pegar uma lista."
 
 #: src/tar.c:348
 #, fuzzy
@@ -1478,15 +1478,15 @@ msgstr ""
 
 #: src/tar.c:387
 msgid "Main operation mode:"
-msgstr ""
+msgstr "Modo de operação principal:"
 
 #: src/tar.c:390
 msgid "list the contents of an archive"
-msgstr ""
+msgstr "lista os conteúdos de um registro de arquivos"
 
 #: src/tar.c:392
 msgid "extract files from an archive"
-msgstr ""
+msgstr "extrai arquivos de um registro de arquivos"
 
 #: src/tar.c:395
 #, fuzzy
@@ -1495,11 +1495,11 @@ msgstr "Final-de-arquivo inesperado no arquivo-tar"
 
 #: src/tar.c:397
 msgid "find differences between archive and file system"
-msgstr ""
+msgstr "acha diferenças entre um registro de arquivos e o sistema de arquivos"
 
 #: src/tar.c:400
 msgid "append files to the end of an archive"
-msgstr ""
+msgstr "anexa arquivos ao final de um registro de arquivos"
 
 #: src/tar.c:402
 msgid "only append files newer than copy in archive"
@@ -1607,11 +1607,11 @@ msgstr "preserva metadados de diretórios existentes"
 
 #: src/tar.c:467
 msgid "overwrite metadata of existing directories when extracting (default)"
-msgstr ""
+msgstr "sobreescreve metadado de diretório existente ao extrair (padrão)"
 
 #: src/tar.c:473
 msgid "Select output stream:"
-msgstr ""
+msgstr "Seleciona fluxo de saída:"
 
 #: src/tar.c:476
 #, fuzzy
@@ -1623,44 +1623,44 @@ msgstr "Erro ao escrever para saída padrão"
 #: src/tar.c:538
 #: tests/genfile.c:190
 msgid "COMMAND"
-msgstr ""
+msgstr "COMMAND"
 
 #: src/tar.c:478
 msgid "pipe extracted files to another program"
-msgstr ""
+msgstr "pipe extraiu arquivos para outro programa"
 
 #: src/tar.c:480
 msgid "ignore exit codes of children"
-msgstr ""
+msgstr "ignora código de saída de filhos"
 
 #: src/tar.c:482
 msgid "treat non-zero exit codes of children as error"
-msgstr ""
+msgstr "trata código de saída non-zero de filhos como erro"
 
 #: src/tar.c:487
 msgid "Handling of file attributes:"
-msgstr ""
+msgstr "Tratando de atributos de arquivo:"
 
 #: src/tar.c:490
 msgid "force NAME as owner for added files"
-msgstr ""
+msgstr "força NAME como dono para arquivos adicionados"
 
 #: src/tar.c:492
 msgid "force NAME as group for added files"
-msgstr ""
+msgstr "força NAME como grupo para arquivos adicionados"
 
 #: src/tar.c:493
 #: src/tar.c:690
 msgid "DATE-OR-FILE"
-msgstr ""
+msgstr "DATE-OR-FILE"
 
 #: src/tar.c:494
 msgid "set mtime for added files from DATE-OR-FILE"
-msgstr ""
+msgstr "seta mtime para arquivos adicionados de DATE-OR-FILE"
 
 #: src/tar.c:495
 msgid "CHANGES"
-msgstr ""
+msgstr "CHANGES"
 
 #: src/tar.c:496
 msgid "force (symbolic) mode CHANGES for added files"
@@ -1680,19 +1680,19 @@ msgstr "não extrai o arquivo tempo modificado"
 
 #: src/tar.c:505
 msgid "try extracting files with the same ownership as exists in the archive (default for superuser)"
-msgstr ""
+msgstr "tenta extrair arquivos com mesmo tipo de propriedade como existente em registro de arquivos (padrão para superusuário)"
 
 #: src/tar.c:507
 msgid "extract files as yourself (default for ordinary users)"
-msgstr ""
+msgstr "extrai arquivos como você mesmo (padrão para usuários comuns)"
 
 #: src/tar.c:509
 msgid "always use numbers for user/group names"
-msgstr ""
+msgstr "sempre usar números para nomes de usuário/grupo"
 
 #: src/tar.c:511
 msgid "extract information about file permissions (default for superuser)"
-msgstr ""
+msgstr "extrai informação sobre permissões de arquivos (padrão para superusuário)"
 
 #: src/tar.c:515
 msgid "apply the user's umask when extracting permissions from the archive (default for ordinary users)"
@@ -1704,7 +1704,7 @@ msgstr ""
 
 #: src/tar.c:520
 msgid "same as both -p and -s"
-msgstr ""
+msgstr "o mesmo para ambos -p e -s"
 
 #: src/tar.c:522
 msgid "delay setting modification times and permissions of extracted directories until the end of extraction"
@@ -1720,11 +1720,11 @@ msgstr ""
 
 #: src/tar.c:532
 msgid "ARCHIVE"
-msgstr ""
+msgstr "ARCHIVE"
 
 #: src/tar.c:533
 msgid "use archive file or device ARCHIVE"
-msgstr ""
+msgstr "use registro de arquivos ou dispositivo ARCHIVE"
 
 #: src/tar.c:535
 msgid "archive file is local even if it has a colon"
@@ -1732,15 +1732,15 @@ msgstr ""
 
 #: src/tar.c:537
 msgid "use given rmt COMMAND instead of rmt"
-msgstr ""
+msgstr "use COMMAND rmt dado ao invés de rmt"
 
 #: src/tar.c:539
 msgid "use remote COMMAND instead of rsh"
-msgstr ""
+msgstr "use COMMAND remoto ao invés de rsh"
 
 #: src/tar.c:543
 msgid "specify drive and density"
-msgstr ""
+msgstr "especifique drive e densidade"
 
 #: src/tar.c:557
 #, fuzzy
@@ -1749,31 +1749,31 @@ msgstr "Impossível verificar arquivos-tar multi-volume"
 
 #: src/tar.c:559
 msgid "change tape after writing NUMBER x 1024 bytes"
-msgstr ""
+msgstr "troque a fita após escrever NUMBER x 1024 bytes"
 
 #: src/tar.c:561
 msgid "run script at end of each tape (implies -M)"
-msgstr ""
+msgstr "rode o script no final de cada fita (implica -M)"
 
 #: src/tar.c:564
 msgid "use/update the volume number in FILE"
-msgstr ""
+msgstr "use/atualize o número do volume no FILE"
 
 #: src/tar.c:569
 msgid "Device blocking:"
-msgstr ""
+msgstr "Dispositivo bloqueando:"
 
 #: src/tar.c:571
 msgid "BLOCKS"
-msgstr ""
+msgstr "BLOCKS"
 
 #: src/tar.c:572
 msgid "BLOCKS x 512 bytes per record"
-msgstr ""
+msgstr "BLOCKS x 512 bytes por gravação"
 
 #: src/tar.c:574
 msgid "NUMBER of bytes per record, multiple of 512"
-msgstr ""
+msgstr "NUMBER de bytes por gravação, multiplo de 512"
 
 #: src/tar.c:576
 msgid "ignore zeroed blocks in archive (means EOF)"
@@ -1791,19 +1791,19 @@ msgstr "Opções de formato do arquivo-tar conflitantes"
 #: src/tar.c:585
 #: tests/genfile.c:153
 msgid "FORMAT"
-msgstr ""
+msgstr "FORMAT"
 
 #: src/tar.c:586
 msgid "create archive of the given format"
-msgstr ""
+msgstr "cria registro de arquivos no formato dado"
 
 #: src/tar.c:588
 msgid "FORMAT is one of the following:"
-msgstr ""
+msgstr "FORMAT é um dos seguintes:"
 
 #: src/tar.c:589
 msgid "old V7 tar format"
-msgstr ""
+msgstr "formato V7 tar velho"
 
 #: src/tar.c:592
 msgid "GNU format as per tar <= 1.12"
@@ -1823,27 +1823,27 @@ msgstr ""
 
 #: src/tar.c:599
 msgid "same as pax"
-msgstr ""
+msgstr "o mesmo que pax"
 
 #: src/tar.c:602
 msgid "same as --format=v7"
-msgstr ""
+msgstr "equivalente a --format=v7"
 
 #: src/tar.c:605
 msgid "same as --format=posix"
-msgstr ""
+msgstr "equivalente a --format=posix"
 
 #: src/tar.c:606
 msgid "keyword[[:]=value][,keyword[[:]=value]]..."
-msgstr ""
+msgstr "palavra-chave[[:]=valor][,palavra-chave[[:]=valor]]..."
 
 #: src/tar.c:607
 msgid "control pax keywords"
-msgstr ""
+msgstr "controle palavra-chave pax"
 
 #: src/tar.c:608
 msgid "TEXT"
-msgstr ""
+msgstr "TEXT"
 
 #: src/tar.c:609
 msgid "create archive with volume name TEXT; at list/extract time, use TEXT as a globbing pattern for volume name"
@@ -1864,7 +1864,7 @@ msgstr ""
 
 #: src/tar.c:620
 msgid "PROG"
-msgstr ""
+msgstr "PROG"
 
 #: src/tar.c:621
 msgid "filter through PROG (must accept -d)"
@@ -1872,7 +1872,7 @@ msgstr ""
 
 #: src/tar.c:637
 msgid "Local file selection:"
-msgstr ""
+msgstr "Seleção de arquivo local:"
 
 #: src/tar.c:640
 msgid "add given FILE to the archive (useful if its name starts with a dash)"
@@ -1880,7 +1880,7 @@ msgstr ""
 
 #: src/tar.c:641
 msgid "DIR"
-msgstr ""
+msgstr "DIR"
 
 #: src/tar.c:642
 #, fuzzy
@@ -1910,19 +1910,19 @@ msgstr ""
 #: src/tar.c:653
 #: tests/genfile.c:136
 msgid "PATTERN"
-msgstr ""
+msgstr "PATTERN"
 
 #: src/tar.c:654
 msgid "exclude files, given as a PATTERN"
-msgstr ""
+msgstr "exclua arquivos, dado como um PATTERN"
 
 #: src/tar.c:656
 msgid "exclude patterns listed in FILE"
-msgstr ""
+msgstr "exclua padrões listados em FILE"
 
 #: src/tar.c:658
 msgid "exclude contents of directories containing CACHEDIR.TAG, except for the tag file itself"
-msgstr ""
+msgstr "exclua conteúdos de diretórios contendo CACHEDIR.TAG, exceto para a própria etiqueta de arquivo"
 
 #: src/tar.c:661
 msgid "exclude everything under directories containing CACHEDIR.TAG"
@@ -1979,7 +1979,7 @@ msgstr ""
 
 #: src/tar.c:688
 msgid "MEMBER-NAME"
-msgstr ""
+msgstr "MEMBER-NAME"
 
 #: src/tar.c:689
 msgid "begin at member MEMBER-NAME in the archive"
@@ -1991,7 +1991,7 @@ msgstr ""
 
 #: src/tar.c:693
 msgid "DATE"
-msgstr ""
+msgstr "DATE"
 
 #: src/tar.c:694
 msgid "compare date and time when data changed only"
@@ -1999,7 +1999,7 @@ msgstr ""
 
 #: src/tar.c:695
 msgid "CONTROL"
-msgstr ""
+msgstr "CONTROL"
 
 #: src/tar.c:696
 msgid "backup before removal, choose version CONTROL"
@@ -2010,7 +2010,7 @@ msgstr ""
 #: src/tar.c:778
 #: tests/genfile.c:169
 msgid "STRING"
-msgstr ""
+msgstr "STRING"
 
 #: src/tar.c:698
 msgid "backup before removal, override usual suffix ('~' unless overridden by environment variable SIMPLE_BACKUP_SUFFIX)"
@@ -2026,7 +2026,7 @@ msgstr ""
 
 #: src/tar.c:707
 msgid "EXPRESSION"
-msgstr ""
+msgstr "EXPRESSION"
 
 #: src/tar.c:708
 msgid "use sed replace EXPRESSION to transform file names"
@@ -2079,7 +2079,7 @@ msgstr ""
 
 #: src/tar.c:740
 msgid "KEYWORD"
-msgstr ""
+msgstr "KEYWORD"
 
 #: src/tar.c:741
 msgid "warning control"
@@ -2091,7 +2091,7 @@ msgstr ""
 
 #: src/tar.c:745
 msgid "ACTION"
-msgstr ""
+msgstr "ACTION"
 
 #: src/tar.c:746
 msgid "execute ACTION on each checkpoint"
@@ -2103,7 +2103,7 @@ msgstr ""
 
 #: src/tar.c:750
 msgid "SIGNAL"
-msgstr ""
+msgstr "SIGNAL"
 
 #: src/tar.c:751
 msgid "print total bytes after processing the archive; with an argument - print total bytes when this SIGNAL is delivered; Allowed signals are: SIGHUP, SIGQUIT, SIGINT, SIGUSR1 and SIGUSR2; the names without SIG prefix are also accepted"
@@ -2143,7 +2143,7 @@ msgstr ""
 
 #: src/tar.c:774
 msgid "STYLE"
-msgstr ""
+msgstr "STYLE"
 
 #: src/tar.c:775
 msgid "set name quoting style; see below for valid STYLE values"
@@ -2318,7 +2318,7 @@ msgstr "As opções \"-[0-7][lmh]\" não são suportadas por *este* tar"
 
 #: src/tar.c:2175
 msgid "[FILE]..."
-msgstr ""
+msgstr "[FILE]..."
 
 #: src/tar.c:2293
 #, c-format
@@ -2544,7 +2544,7 @@ msgstr "Opções de compressão conflitantes"
 #: tests/genfile.c:128
 #: tests/genfile.c:139
 msgid "SIZE"
-msgstr ""
+msgstr "SIZE"
 
 #: tests/genfile.c:129
 msgid "Create file of the given SIZE"
@@ -2577,7 +2577,7 @@ msgstr ""
 
 #: tests/genfile.c:144
 msgid "OFFSET"
-msgstr ""
+msgstr "OFFSET"
 
 #: tests/genfile.c:145
 msgid "Seek to the given offset before writing data"
@@ -2597,7 +2597,7 @@ msgstr ""
 
 #: tests/genfile.c:163
 msgid "OPTION"
-msgstr ""
+msgstr "OPTION"
 
 #: tests/genfile.c:164
 msgid "Execute ARGS. Useful with --checkpoint and one of --cut, --append, --touch, --unlink"
@@ -2633,7 +2633,7 @@ msgstr ""
 
 #: tests/genfile.c:191
 msgid "Execute COMMAND"
-msgstr ""
+msgstr "Executa COMMAND"
 
 #: tests/genfile.c:194
 msgid "Unlink FILE"
@@ -2682,7 +2682,7 @@ msgstr "Erro de sistema desconhecido"
 
 #: tests/genfile.c:391
 msgid "[ARGS...]"
-msgstr ""
+msgstr "[ARGS...]"
 
 #: tests/genfile.c:428
 #: tests/genfile.c:468
