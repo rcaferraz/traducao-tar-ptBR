@@ -530,7 +530,7 @@ msgstr "saída padrão (stdout)"
 #: lib/rtapelib.c:429
 #, c-format
 msgid "Cannot connect to %s: resolve failed"
-msgstr ""
+msgstr "Não foi possível conectar a %s: resolução falhou"
 
 #: lib/rtapelib.c:515
 #, c-format
@@ -577,7 +577,7 @@ msgstr "%s: opção inválida -- %c\n"
 
 #: rmt/rmt.c:636 rmt/rmt.c:680
 msgid "Operation not supported"
-msgstr ""
+msgstr "Operação não suportada"
 
 #: rmt/rmt.c:664
 #, fuzzy
@@ -585,44 +585,38 @@ msgid "Unexpected arguments"
 msgstr "Fim de arquivo inesperado nos nomes cifrados"
 
 #: rmt/rmt.c:689
-#, fuzzy
 msgid "Manipulate a tape drive, accepting commands from a remote process"
-msgstr ""
-"Uso: %s [OPÇÃO]\n"
-"Manipula uma unidade de fita, aceitando comandos de um processo remoto.\n"
-"\n"
-"  --version  Mostra informações de versão.\n"
-"  --help   Mostra esta ajuda.\n"
+msgstr "Manipula uma unidade de fita, aceitando comandos de um processo remoto"
 
 #: rmt/rmt.c:696 src/tar.c:424 src/tar.c:428 src/tar.c:558 src/tar.c:573
 #: src/tar.c:704 src/tar.c:742 tests/genfile.c:166
 msgid "NUMBER"
-msgstr ""
+msgstr "NUMERO"
 
 #: rmt/rmt.c:697
 msgid "set debug level"
-msgstr ""
+msgstr "define nível de debug"
 
 #: rmt/rmt.c:698 src/tar.c:422 src/tar.c:563 src/tar.c:639 src/tar.c:643
 #: src/tar.c:655 src/tar.c:665 src/tar.c:668 src/tar.c:670 src/tar.c:759
 #: tests/genfile.c:132 tests/genfile.c:180 tests/genfile.c:184
 #: tests/genfile.c:187 tests/genfile.c:193
 msgid "FILE"
-msgstr ""
+msgstr "ARQUIVO"
 
 #: rmt/rmt.c:699
 msgid "set debug output file name"
-msgstr ""
+msgstr "define nome do arquivo de saída do debug"
 
 #: rmt/rmt.c:715 rmt/rmt.c:783
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open %s"
-msgstr "Impossível fechar"
+msgstr "impossível fechar %s"
 
 #: rmt/rmt.c:780 tests/genfile.c:884 tests/genfile.c:901
 #, c-format
 msgid "too many arguments"
-msgstr ""
+msgstr "muitos argumentos"
 
 #: rmt/rmt.c:822
 msgid "Garbage command"
@@ -635,18 +629,18 @@ msgid "This does not look like a tar archive"
 msgstr "Este não parece ser um arquivo-tar"
 
 #: src/buffer.c:521 src/buffer.c:530
-#, fuzzy
+#,
 msgid "Total bytes written"
-msgstr "Total de bytes escritos: %s (%sB, %sB/s)\n"
+msgstr "Total de bytes escritos"
 
 #: src/buffer.c:528 src/buffer.c:542
 msgid "Total bytes read"
-msgstr ""
+msgstr "Total de bytes lidos"
 
 #: src/buffer.c:532
-#, fuzzy, c-format
+#, c-format
 msgid "Total bytes deleted: %s\n"
-msgstr "Total de bytes escritos: %s (%sB, %sB/s)\n"
+msgstr "Total de bytes apagados: %s\n"
 
 #: src/buffer.c:621
 msgid "(pipe)"
@@ -667,7 +661,7 @@ msgstr "Impossível verificar arquivos-tar de entrada/saída padrão (stdin/stdout)
 #: src/buffer.c:703
 #, c-format
 msgid "Archive is compressed. Use %s option"
-msgstr ""
+msgstr "O arquivo está compactado. Use a opção %s"
 
 #: src/buffer.c:760 src/tar.c:2448
 msgid "Cannot update compressed archives"
@@ -682,10 +676,10 @@ msgid "Too many errors, quitting"
 msgstr "Muitos erros, encerrando"
 
 #: src/buffer.c:892
-#, fuzzy, c-format
+#, c-format
 msgid "Record size = %lu block"
 msgid_plural "Record size = %lu blocks"
-msgstr[0] "Tamanho de registro = %lu blocos"
+msgstr[0] "Tamanho de registro = %lu bloco"
 msgstr[1] "Tamanho de registro = %lu blocos"
 
 #: src/buffer.c:913
@@ -700,8 +694,9 @@ msgid "Cannot backspace archive file; it may be unreadable without -i"
 msgstr "Impossível recuar no arquivo-tar; pode estar ilegível sem -i"
 
 #: src/buffer.c:1022
+#, fuzzy
 msgid "rmtlseek not stopped at a record boundary"
-msgstr ""
+msgstr "rmtlseek não está parado numa fronteira de registro"
 
 #: src/buffer.c:1073
 #, c-format
@@ -732,20 +727,19 @@ msgid ""
 " q             Abort tar\n"
 " y or newline  Continue operation\n"
 msgstr ""
-" n [nome]   Dar um novo nome para o próximo volume (e os subseqüentes)\n"
-" q          Abortar tar\n"
-" !          Criar um \"sub-shell\"\n"
-" ?          Mostra esta lista\n"
+" n nome           Dar um novo nome para o(s) próximo(s) volume(s) (e os subseqüentes)\n"
+" q                Abortar tar\n"
+" y ou nova linha  Continuar operação\n"
 
 #: src/buffer.c:1153
 #, c-format
 msgid " !             Spawn a subshell\n"
-msgstr ""
+msgstr " !             Criar um sub-shell\n"
 
 #: src/buffer.c:1154
 #, c-format
 msgid " ?             Print this list\n"
-msgstr ""
+msgstr " ?             Mostra esta lista\n"
 
 #: src/buffer.c:1161
 msgid "No new volume; exiting.\n"
@@ -753,27 +747,27 @@ msgstr "Nenhum volume novo; encerrando.\n"
 
 #: src/buffer.c:1194
 msgid "File name not specified. Try again.\n"
-msgstr ""
+msgstr "Nome de arquivo não foi especificado. Tente novamente.\n"
 
 #: src/buffer.c:1207
 #, c-format
 msgid "Invalid input. Type ? for help.\n"
-msgstr ""
+msgstr "Entrada inválida. Digite ? para ajuda.\n"
 
 #: src/buffer.c:1258
-#, fuzzy, c-format
+#, c-format
 msgid "%s command failed"
-msgstr "comando `%s' falhou"
+msgstr "comando %s falhou"
 
 #: src/buffer.c:1439
-#, fuzzy, c-format
+#, c-format
 msgid "%s is possibly continued on this volume: header contains truncated name"
-msgstr "%s não continua neste volume"
+msgstr "%s possivelmente é continuado neste volume: o cabeçalho contém o nome truncado"
 
 #: src/buffer.c:1443
 #, c-format
 msgid "%s is not continued on this volume"
-msgstr "%s não continua neste volume"
+msgstr "%s não é continuado neste volume"
 
 #: src/buffer.c:1457
 #, c-format
@@ -781,9 +775,9 @@ msgid "%s is the wrong size (%s != %s + %s)"
 msgstr "%s é o tamanho errado (%s != %s + %s)"
 
 #: src/buffer.c:1472
-#, fuzzy, c-format
+#, c-format
 msgid "This volume is out of sequence (%s - %s != %s)"
-msgstr "Este volume está fora de sequência"
+msgstr "Este volume está fora de sequência (%s - %s != %s)"
 
 #: src/buffer.c:1550 src/buffer.c:1576
 #, c-format
@@ -796,19 +790,19 @@ msgid "Volume %s does not match %s"
 msgstr "O volume %s não casa com %s"
 
 #: src/buffer.c:1674
-#, c-format
+#, fuzzy, c-format
 msgid "%s: file name too long to be stored in a GNU multivolume header, truncated"
-msgstr ""
+msgstr "%s: nome de arquivo muito longo para ser armazenado num cabeçalho GNU multivolume, truncado"
 
 #: src/buffer.c:1865
 msgid "write did not end on a block boundary"
-msgstr ""
+msgstr "escrita não acabou numa fronteira de bloco"
 
 #: src/compare.c:95
-#, fuzzy, c-format
+#, c-format
 msgid "Could only read %lu of %lu byte"
 msgid_plural "Could only read %lu of %lu bytes"
-msgstr[0] "Só foi possível ler %lu de %lu bytes"
+msgstr[0] "Só foi possível ler %lu de %lu byte"
 msgstr[1] "Só foi possível ler %lu de %lu bytes"
 
 #: src/compare.c:105 src/compare.c:383
@@ -863,39 +857,39 @@ msgid "Verify "
 msgstr "Verificar "
 
 #: src/compare.c:464
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Unknown file type `%c', diffed as normal file"
-msgstr "%s: Tipo de arquivo \"%c\" desconhecido, comparado como um arquivo normal"
+msgstr "%s: Tipo de arquivo `%c' desconhecido, comparado como um arquivo normal"
 
 #: src/compare.c:520
 msgid "Archive contains file names with leading prefixes removed."
-msgstr ""
+msgstr "O arquivo-tar contém nome de arquivos com os prefixos principais removidos"
 
 #: src/compare.c:526
 #, fuzzy
 msgid "Archive contains transformed file names."
-msgstr "o arquivo-tar contém cabeçalhos base-64 obsoletos"
+msgstr "O arquivo-tar contém nomes de arquivos transformados."
 
 #: src/compare.c:531
 msgid "Verification may fail to locate original files."
-msgstr ""
+msgstr "A verificação pode falhar em localizar os arquivos originais."
 
 #: src/compare.c:603
 #, fuzzy, c-format
 msgid "VERIFY FAILURE: %d invalid header detected"
 msgid_plural "VERIFY FAILURE: %d invalid headers detected"
-msgstr[0] "ERRO DE VERIFICAÇÃO: detectados %d cabeçalhos inválidos"
+msgstr[0] "ERRO DE VERIFICAÇÃO: detectado %d cabeçalho inválido"
 msgstr[1] "ERRO DE VERIFICAÇÃO: detectados %d cabeçalhos inválidos"
 
 #: src/compare.c:621 src/list.c:222
 #, c-format
 msgid "A lone zero block at %s"
-msgstr ""
+msgstr "Bloco de zero isolado em %s"
 
 #: src/create.c:72
 #, c-format
 msgid "%s: contains a cache directory tag %s; %s"
-msgstr ""
+msgstr "%s: contém um rótulo %s de diretório cache; %s"
 
 #: src/create.c:261
 #, c-format
@@ -912,19 +906,19 @@ msgid "Generating negative octal headers"
 msgstr "Gerando cabeçalhos octais negativos"
 
 #: src/create.c:612 src/create.c:675
-#, fuzzy, c-format
+#, c-format
 msgid "%s: file name is too long (max %d); not dumped"
-msgstr "%s: arquivo sem alterações; não será arquivado"
+msgstr "%s: nome de arquivo é muito grande (máximo de %d); não será arquivado"
 
 #: src/create.c:622
-#, fuzzy, c-format
+#, c-format
 msgid "%s: file name is too long (cannot be split); not dumped"
-msgstr "%s: arquivo sem alterações; não será arquivado"
+msgstr "%s: nome de arquivo é muito grande (não pode ser dividido); não será arquivado"
 
 #: src/create.c:649
 #, fuzzy, c-format
 msgid "%s: link name is too long; not dumped"
-msgstr "%s: arquivo sem alterações; não será arquivado"
+msgstr "%s: Nome de link muito grande; não será arquivado"
 
 #: src/create.c:1064
 #, fuzzy, c-format
