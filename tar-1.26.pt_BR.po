@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: tar 1.13.25\n"
 "Report-Msgid-Bugs-To: bug-tar@gnu.org\n"
 "POT-Creation-Date: 2011-03-12 11:53+0200\n"
-"PO-Revision-Date: 2013-01-09 15:24-0300\n"
+"PO-Revision-Date: 2013-01-11 02:28-0300\n"
 "Last-Translator: Eduardo Tenório <embatbr@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -1700,7 +1700,7 @@ msgstr ""
 
 #: src/tar.c:517
 msgid "sort names to extract to match archive"
-msgstr ""
+msgstr "ordena nome para extração para casar com registro de arquivos"
 
 #: src/tar.c:520
 msgid "same as both -p and -s"
@@ -1712,11 +1712,11 @@ msgstr ""
 
 #: src/tar.c:525
 msgid "cancel the effect of --delay-directory-restore option"
-msgstr ""
+msgstr "cancela o efeito da opção --delay-directory-restore"
 
 #: src/tar.c:530
 msgid "Device selection and switching:"
-msgstr ""
+msgstr "Seleção e troca de dispositivo"
 
 #: src/tar.c:532
 msgid "ARCHIVE"
@@ -1728,7 +1728,7 @@ msgstr "use registro de arquivos ou dispositivo ARCHIVE"
 
 #: src/tar.c:535
 msgid "archive file is local even if it has a colon"
-msgstr ""
+msgstr "arquivo do registro é local mesmo se tiver dois pontos"
 
 #: src/tar.c:537
 msgid "use given rmt COMMAND instead of rmt"
@@ -1856,11 +1856,11 @@ msgstr "Opções de compressão conflitantes"
 
 #: src/tar.c:616
 msgid "use archive suffix to determine the compression program"
-msgstr ""
+msgstr "usa terminação do registro de arquivos para determinar o programa compressor"
 
 #: src/tar.c:618
 msgid "do not use archive suffix to determine the compression program"
-msgstr ""
+msgstr "não usa terminação do registro de arquivos para determinar o programa compressor"
 
 #: src/tar.c:620
 msgid "PROG"
@@ -1868,7 +1868,7 @@ msgstr "PROG"
 
 #: src/tar.c:621
 msgid "filter through PROG (must accept -d)"
-msgstr ""
+msgstr "filtra através de PROG (deve aceitar -d)"
 
 #: src/tar.c:637
 msgid "Local file selection:"
@@ -1876,7 +1876,7 @@ msgstr "Seleção de arquivo local:"
 
 #: src/tar.c:640
 msgid "add given FILE to the archive (useful if its name starts with a dash)"
-msgstr ""
+msgstr "adiciona FILE dado ao registro de arquivos (útil se seu nome inicia-se com um travessão)"
 
 #: src/tar.c:641
 msgid "DIR"
@@ -1889,11 +1889,11 @@ msgstr "Impossível mudar o diretório de trabalho"
 
 #: src/tar.c:644
 msgid "get names to extract or create from FILE"
-msgstr ""
+msgstr "pega nomes para extrair ou criar a partir de FILE"
 
 #: src/tar.c:646
 msgid "-T reads null-terminated names, disable -C"
-msgstr ""
+msgstr "-T lê nomes de terminação nula, desabilita -C"
 
 #: src/tar.c:648
 msgid "disable the effect of the previous --null option"
@@ -1958,7 +1958,7 @@ msgstr ""
 
 #: src/tar.c:679
 msgid "stay in local file system when creating archive"
-msgstr ""
+msgstr "permanece no sistema local de arquivos durante criação de registro de arquivos"
 
 #: src/tar.c:681
 msgid "recurse into directories (default)"
@@ -1987,7 +1987,7 @@ msgstr ""
 
 #: src/tar.c:691
 msgid "only store files newer than DATE-OR-FILE"
-msgstr ""
+msgstr "armazena apenas arquivos mais novos que DATE-OR-FILE"
 
 #: src/tar.c:693
 msgid "DATE"
@@ -1995,7 +1995,7 @@ msgstr "DATE"
 
 #: src/tar.c:694
 msgid "compare date and time when data changed only"
-msgstr ""
+msgstr "compara data e hora apenas quando so dados mudarem"
 
 #: src/tar.c:695
 msgid "CONTROL"
@@ -2003,7 +2003,7 @@ msgstr "CONTROL"
 
 #: src/tar.c:696
 msgid "backup before removal, choose version CONTROL"
-msgstr ""
+msgstr "efetua backup antes de remoção, escolhe cersão CONTROL"
 
 #: src/tar.c:697
 #: src/tar.c:776
@@ -2018,7 +2018,7 @@ msgstr ""
 
 #: src/tar.c:703
 msgid "File name transformations:"
-msgstr ""
+msgstr "Transformações de nome de arquivo:"
 
 #: src/tar.c:705
 msgid "strip NUMBER leading components from file names on extraction"
@@ -2071,7 +2071,7 @@ msgstr ""
 
 #: src/tar.c:736
 msgid "Informative output:"
-msgstr ""
+msgstr "Prestação de informações:"
 
 #: src/tar.c:739
 msgid "verbosely list files processed"
@@ -2083,11 +2083,11 @@ msgstr "KEYWORD"
 
 #: src/tar.c:741
 msgid "warning control"
-msgstr ""
+msgstr "aviso de controle"
 
 #: src/tar.c:743
 msgid "display progress messages every NUMBERth record (default 10)"
-msgstr ""
+msgstr "exibe mensagens de progresso a cada NUMBERésima gravação (padrão 10)"
 
 #: src/tar.c:745
 msgid "ACTION"
@@ -2095,7 +2095,7 @@ msgstr "ACTION"
 
 #: src/tar.c:746
 msgid "execute ACTION on each checkpoint"
-msgstr ""
+msgstr "Executa ACTION em cada checkpoint"
 
 #: src/tar.c:749
 msgid "print a message if not all links are dumped"
@@ -2111,11 +2111,11 @@ msgstr ""
 
 #: src/tar.c:756
 msgid "print file modification times in UTC"
-msgstr ""
+msgstr "imprime tempos de modificação de arquivo em UTC"
 
 #: src/tar.c:758
 msgid "print file time to its full resolution"
-msgstr ""
+msgstr "imprime tempo de arquivo em sua resolução máxima"
 
 #: src/tar.c:760
 msgid "send verbose output to FILE"
@@ -2131,7 +2131,7 @@ msgstr ""
 
 #: src/tar.c:767
 msgid "show tar defaults"
-msgstr ""
+msgstr "mostra padrões do tar"
 
 #: src/tar.c:769
 msgid "when listing or extracting, list each directory that does not match search criteria"
@@ -2167,11 +2167,11 @@ msgstr ""
 
 #: src/tar.c:792
 msgid "Other options:"
-msgstr ""
+msgstr "Outras opções:"
 
 #: src/tar.c:795
 msgid "disable use of some potentially harmful options"
-msgstr ""
+msgstr "desabilitar o uso de alguma opção potencialmente nociva"
 
 #: src/tar.c:930
 #, fuzzy
@@ -2200,7 +2200,7 @@ msgstr "Substituindo %s pelo formato de data desconhecido %s"
 #: src/tar.c:1057
 #, c-format
 msgid "Option %s: Treating date `%s' as %s"
-msgstr ""
+msgstr "Opção %s: Tratando data `%s' como %s"
 
 #: src/tar.c:1135
 #, fuzzy, c-format
@@ -2299,7 +2299,7 @@ msgstr "Tamanho da fita inválido"
 
 #: src/tar.c:2039
 msgid "Only one --to-command option allowed"
-msgstr ""
+msgstr "Somente uma opção --to-command permitida"
 
 #: src/tar.c:2119
 #, c-format
@@ -2309,7 +2309,7 @@ msgstr ""
 #: src/tar.c:2145
 #, c-format
 msgid "Unknown density: `%c'"
-msgstr ""
+msgstr "Densidade desconhecida: `%c'"
 
 #: src/tar.c:2162
 #, c-format
@@ -2505,11 +2505,11 @@ msgstr ""
 
 #: src/checkpoint.c:132
 msgid "write"
-msgstr ""
+msgstr "escreva"
 
 #: src/checkpoint.c:132
 msgid "read"
-msgstr ""
+msgstr "leia"
 
 #. TRANSLATORS: This is a ``checkpoint of write operation'',
 #. *not* ``Writing a checkpoint''.
@@ -2548,7 +2548,7 @@ msgstr "SIZE"
 
 #: tests/genfile.c:129
 msgid "Create file of the given SIZE"
-msgstr ""
+msgstr "Cria arquivo com tamanho SIZE"
 
 #: tests/genfile.c:131
 #, fuzzy
@@ -2557,11 +2557,11 @@ msgstr "Erro ao escrever para saída padrão"
 
 #: tests/genfile.c:133
 msgid "Read file names from FILE"
-msgstr ""
+msgstr "Lê nomes de arquivos a partir de FILE"
 
 #: tests/genfile.c:135
 msgid "-T reads null-terminated names"
-msgstr ""
+msgstr "-T lê nomes com terminação nula"
 
 #: tests/genfile.c:137
 msgid "Fill the file with the given PATTERN. PATTERN is 'default' or 'zeros'"
@@ -2569,11 +2569,11 @@ msgstr ""
 
 #: tests/genfile.c:140
 msgid "Size of a block for sparse file"
-msgstr ""
+msgstr "Tamanho de um block para arquivo esparso"
 
 #: tests/genfile.c:142
 msgid "Generate sparse file. Rest of the command line gives the file map."
-msgstr ""
+msgstr "Gera arquivo esparso. O resto da linha de comando dá o mapa de arquivos."
 
 #: tests/genfile.c:144
 msgid "OFFSET"
@@ -2585,7 +2585,7 @@ msgstr ""
 
 #: tests/genfile.c:151
 msgid "File statistics options:"
-msgstr ""
+msgstr "Opções de estatísticas do arquivo:"
 
 #: tests/genfile.c:154
 msgid "Print contents of struct stat for each given file. Default FORMAT is: "
@@ -2609,11 +2609,11 @@ msgstr ""
 
 #: tests/genfile.c:170
 msgid "Set date for next --touch option"
-msgstr ""
+msgstr "Seta data para próxima opção --touch"
 
 #: tests/genfile.c:173
 msgid "Display executed checkpoints and exit status of COMMAND"
-msgstr ""
+msgstr "Exibe checkpoints executados e status de saída de COMMAND"
 
 #: tests/genfile.c:178
 msgid "Synchronous execution actions. These are executed when checkpoint number given by --checkpoint option is reached."
@@ -2629,7 +2629,7 @@ msgstr ""
 
 #: tests/genfile.c:188
 msgid "Update the access and modification times of FILE"
-msgstr ""
+msgstr "Atualiza o acesso e tempo de modificação de FILE"
 
 #: tests/genfile.c:191
 msgid "Execute COMMAND"
@@ -2637,7 +2637,7 @@ msgstr "Executa COMMAND"
 
 #: tests/genfile.c:194
 msgid "Unlink FILE"
-msgstr ""
+msgstr "FILE não-linkável"
 
 #: tests/genfile.c:244
 #, fuzzy, c-format
@@ -2652,7 +2652,7 @@ msgstr "Número do inode fora de faixa"
 #: tests/genfile.c:252
 #, c-format
 msgid "Negative size: %s"
-msgstr ""
+msgstr "Tamanho negativo: %s"
 
 #: tests/genfile.c:265
 #: tests/genfile.c:567
@@ -2668,7 +2668,7 @@ msgstr ""
 #: tests/genfile.c:272
 #, c-format
 msgid "created file is not sparse"
-msgstr ""
+msgstr "arquivo criado não é esparso"
 
 #: tests/genfile.c:361
 #, c-format
@@ -2691,7 +2691,7 @@ msgstr "[ARGS...]"
 #: tests/genfile.c:685
 #, c-format
 msgid "cannot open `%s'"
-msgstr ""
+msgstr "`%s' não pode ser aberto"
 
 #: tests/genfile.c:434
 #, fuzzy
@@ -2701,7 +2701,7 @@ msgstr "Impossível fechar"
 #: tests/genfile.c:451
 #, c-format
 msgid "file name contains null character"
-msgstr ""
+msgstr "nome de arquivo contém caractere nulo"
 
 #: tests/genfile.c:516
 #, c-format
@@ -2711,7 +2711,7 @@ msgstr ""
 #: tests/genfile.c:594
 #, c-format
 msgid "incorrect mask (near `%s')"
-msgstr ""
+msgstr "Máscara incorreta (aproximado `%s')"
 
 #: tests/genfile.c:600
 #: tests/genfile.c:633
@@ -2732,7 +2732,7 @@ msgstr "%s: Impossível fazer link simbólico para %s"
 #: tests/genfile.c:825
 #, c-format
 msgid "Command exited successfully\n"
-msgstr ""
+msgstr "Comando quitado com sucesso\n"
 
 #: tests/genfile.c:827
 #, fuzzy, c-format
@@ -2747,7 +2747,7 @@ msgstr ""
 #: tests/genfile.c:833
 #, c-format
 msgid "Command stopped on signal %d\n"
-msgstr ""
+msgstr "Comando parado no sinal %d\n"
 
 #: tests/genfile.c:836
 #, c-format
@@ -2757,7 +2757,7 @@ msgstr ""
 #: tests/genfile.c:839
 #, c-format
 msgid "Command terminated\n"
-msgstr ""
+msgstr "Comando terminado\n"
 
 #: tests/genfile.c:871
 #, fuzzy, c-format
